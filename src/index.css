@@ -1,0 +1,104 @@
+*{
+    margin:0 auto;
+  }
+  h1,h3{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  
+  p,ul{
+    padding:20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  p{
+      font-size: 22px;
+      text-align: center;
+  }
+  ul{
+      padding-left: 25%;
+  }
+  .container-fluid{
+    max-width: 100%;
+  }
+  .header,
+  .footer{
+    max-width: 100%;
+    background-color:   #117A65   ;
+  }
+  .footer{
+    margin-top: -7px;
+  }
+.header{
+  margin-bottom: -7px;
+}
+.content{
+    width: 90%;
+    margin: 0 auto;
+    padding:30px;
+    background-color: #E8F8F5;
+  }
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.item{
+  background-color: #9A4533;
+  margin:10px;
+  color:#E9E1DF;
+}
+
+thead{
+  border-top: 1.5px solid #5C93BF;
+  border-bottom: 2.18px solid #5C93BF;
+}
+
+table,th,tr, td {
+  border: 1px solid #5C93BF;
+  /* border-collapse: collapse; */
+  padding: 8px;
+  text-align: center;
+}
+.booklist{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.booklist td{
+  width: 25%;
+}
+
+th{
+  background-color: gray;
+}
+tr:nth-child(even){
+  background-color: #D6DBDF;
+}
+
+.modal-label{
+  width: 25%;
+}
+.wrapper{
+  padding-right: 50px;
+}
+.final{
+  margin-left: 30px;
+  
+}
+.new-register{
+   margin-left: 40%;
+}
